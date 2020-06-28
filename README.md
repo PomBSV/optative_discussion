@@ -1,5 +1,6 @@
 # Tools for Reproducible Science
-- 
+Guillaume Witz (ScITS)
+- Gral idea is to reproduce research in a practical way.
 - Version Control Systems (Git and Github)
 - Computational Notebooks (Jupyter)
 - Public Interactive Notebooks
