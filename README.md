@@ -6,5 +6,6 @@
   1. Create a repository containing a requirements.txt fiel (packages are detailed woth versions)
   spaces "=="
   ```
-  matlib.plot==
+  matplotlib==3.2.1
   ```
+  2. Upload the static versions of the notebooks to the repository
