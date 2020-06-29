@@ -1,11 +1,14 @@
 # Tools for Reproducible Science
 Guillaume Witz (ScITS)
-- Gral idea is to reproduce research in a practical way.
+
+- This course aims to show the ways to reproduce research.
 - Version Control Systems (Git and Github)
 - Computational Notebooks (Jupyter)
 - Public Interactive Notebooks
 Allows researchers to quickly create and share computational environments needed to interact with research code and data.
-Tool : Binder 
+Tool : **Binder** 
+Software project to share interactive, reproducible environments.
+
   
 In particular, how to share notebooks and allowing running them or modify  them interactively.  
   
