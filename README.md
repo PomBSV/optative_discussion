@@ -13,24 +13,23 @@ as well as **BinderHub**, a tool for deploying such services via common cloud co
 portal is hosted by the community at mybinder.org
 
 ***Binder from the users point of view:***
-Binder pulls code from repository(GitHub). Packages needed and detailed in requirements.txt are installed in the environment in the cloud. My notebook instead of a static image as in the case of a pdf could be shown.
+My notebook instead of a static image as in the case of a pdf could be shown. Binder pulls code from repository(GitHub). Packages needed and detailed in requirements.txt are installed in the environment in the cloud. 
+
+In the case of our notebooks, how to share and allowing running them or modify them interactively.  
 
 ***Binder internals:***
-
 ![](images/image1.png?raw=true)
 
 One of the basis projects within Binder, is the so called **repo2docker** project.
 It takes a repository and turns it into a Docker image. (Why Docker : to automate steps that human would do to publish a repository and interact with it) . 
     Problem: users often have compute environments with different package or software versions. 
-             Sometimes an specific version software/package is needed.
-And a Docker image is a file is the solution, comprised of multiple layers, that is used to execute code in a Docker container.
+             Sometimes an specific version software/package is needed in order to execute x package.
+Solution: a Docker image, is comprised of multiple layers, that is used to execute code in a Docker container. It is esentially built from instructions for complet and  executable version of an application.
 
 
 
 
 
-
-In particular, how to share notebooks and allowing running them or modify  them interactively.  
   
   
   How to share our static jupyter notebook with Binder:  
