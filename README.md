@@ -1,7 +1,7 @@
 # Tools for Reproducible Science
 Guillaume Witz (ScITS)
 
-- This course aims to show the ways to reproduce research.
+This course aims to show the ways to reproduce research.
 - Version Control Systems (Git and Github)
 - Computational Notebooks (Jupyter)
 - Public Interactive Notebooks
