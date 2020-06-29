@@ -35,12 +35,16 @@ Docker container: are standarized unit of software that includes everything need
 
 Image is done.
 
-**JupiterHub** tool
-Each user gets a server.
+**JupyterHub** tool for launching notebook server for many users
+Each user gets a notebook server.
+
+**Kubernetes** orchestration tool. It aims to provide a "platform for automating deployment, scaling, and operations of application containers across clusters of hosts"
+Runs on any cloud provider. Use a Docker Image in many servers (if one PC doesn't work anymore the re is no more problem)
+
+JupyterHub + Kubernetes = KubeSpawner implementation of both.
 
 
-
-
+Last Update: 29.06.2020
   
   
   How to share our static jupyter notebook with Binder:  
@@ -52,5 +56,5 @@ Each user gets a server.
   ```
   2. Upload the static versions of the notebooks to the repository
   3. Create the computational environment in Binder (we use a github repository). Copying the url from our repository.
-  
-- Repositories (Zenodo) launched on May 2013
+ 
+
