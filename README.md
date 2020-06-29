@@ -12,7 +12,7 @@ The project maintains core libraries and documentation for running Binder servic
 as well as **BinderHub**, a tool for deploying such services via common cloud computing environments. A public BinderHub 
 portal is hosted by the community at mybinder.org
 
-Binder from the users point of view: 
+<u>Binder from the users point of view:<u> 
 Binder pulls code from repository(GitHub). Packages needed and detailed in requirements.txt are installed in the environment in the cloud. My notebook instead of a static image as in the case of a pdf could be shown.
 
 Binder internals:
