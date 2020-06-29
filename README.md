@@ -12,10 +12,13 @@ The project maintains core libraries and documentation for running Binder servic
 as well as **BinderHub**, a tool for deploying such services via common cloud computing environments. A public BinderHub 
 portal is hosted by the community at mybinder.org
 
-<u>Binder from the users point of view:<u> 
+***Binder from the users point of view:***
 Binder pulls code from repository(GitHub). Packages needed and detailed in requirements.txt are installed in the environment in the cloud. My notebook instead of a static image as in the case of a pdf could be shown.
 
-Binder internals:
+***Binder internals:***
+
+![](images/image1.png?raw=true)
+
 One of the basis projects within Binder, is the so called **repo2docker** project.
 It takes a repository and turns it into a Docker image. (Why Docker : to automate steps that human would do to publish a repository and interact with it) . 
     Problem: users often have compute environments with different package or software versions. 
